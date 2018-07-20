@@ -14,7 +14,7 @@ comments: true
 
 실시간 트위터 스트림, 카프카, 스파크 스트리밍 까진 사용하고
 
-그외에 ( 형태소분석, word2vec) nlp처리 , (machine learning) spark MLlib, 결과 시각화는 개인/파티 별
+그외에 ( 형태소분석, word2vec) nlp처리 , (machine learning) spark MLlib, 결과 시각화는 개인 및 그룹에서 개별 진행
 
 
 
