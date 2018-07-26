@@ -2,11 +2,11 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               bluehyun's 공부하는 블로그
+title:               적당한 타이틀
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
-url:                 https://bluehyun.github.io
+url:                 https://qawabc.github.io
 
 # timezon set
 timezone: Asia/Seoul # 지역 시간 설정
@@ -16,18 +16,18 @@ timezone: Asia/Seoul # 지역 시간 설정
 baseurl:             ""
 
 # A very short description of your page
-tagline:             공부하는걸 정리 하는
+tagline:             상단설명
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  공부한걸 정리해보려고 시작하는 블로그
+  하단 설명
 
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
-  name:              bluehyun
-  email:             bluehyunj@gmail.com
+  name:              Lj
+  email:             qawabc@gmail.com
 
 # Fallback image and color
 image:               /assets/img/nap.jpg
@@ -48,10 +48,10 @@ google_fonts:        Lato
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-google_analytics: UA-121226882-1
+google_analytics: UA-65736262-2
 
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
-disqus_shortname:    bluehyun-github-io
+# disqus_shortname:    bluehyun-github-io
 
 # This text will appear in the footer of every page. Markdown enabled.
 copyright:           ''
