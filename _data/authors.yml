@@ -1,14 +1,14 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # Change `qwtel` to your shortname (used in the front matter to set a page's author, e.g. `author: qwtel`).
-bluehyun:
-  name:              bluehyun
-  email:             bluehyunj@gmail.com
+Lj:
+  name:              Lj
+  email:             qawabc@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    공부하는걸 정리할겸 시작하는 블로그
+    적당한 블로그
 
   # This photo will be used in the about section
   picture:
@@ -22,7 +22,7 @@ bluehyun:
   # Comment/uncommet to show/hide
   # Icons appear in order, can be rearranged:
   social:
-    facebook:        bluehyunj
+    #facebook:        bluehyunj
     # twitter:         <username>
     # google:          <number>
     # vk:              <username>
@@ -32,7 +32,7 @@ bluehyun:
     # spotify:         <user>/<number>
     # soundcloud:      <username>
     # lastfm:          <username>
-    instagram:       bluehyunj
+    #instagram:       bluehyunj
     # flickr:          <string@string>
     # 500px:           <username>
     # dribbble:        <username>
