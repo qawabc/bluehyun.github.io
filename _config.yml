@@ -16,7 +16,7 @@ timezone: Asia/Seoul # 지역 시간 설정
 baseurl:             ""
 
 # A very short description of your page
-tagline:             상단설명
+tagline:             상단설명입니다
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
@@ -48,7 +48,7 @@ google_fonts:        Lato
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-google_analytics: UA-65736262-2
+google_analytics: UA-65736262-1
 
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
 # disqus_shortname:    bluehyun-github-io
