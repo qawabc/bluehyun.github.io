@@ -143,26 +143,4 @@
   {% capture icons_url %}{% link assets/icomoon/style.css %}{% endcapture %}
   <link rel="stylesheet" href="{{ icons_url | absolute_url }}">
 </noscript>
-<script>
-  function goReservation() {
-    var gaParam = ga.getAll()[0].get('linkerParam');
-    console.log(ga.getAll()[0].get('linkerParam'));
-    
-		window.open("https://qawabc.tistory.com"+"?"+gaParam);
-}
-$(function(){
-  $('#doReservation').click(function() {
-    console.log("clicked");
-    alert("clicked");
-    goReservation();
-  });
-});
-/*
-$('#doReservation').on('click',function() {
-  console.log("clicked");
-  alert("clicked");
-  goReservation();
-});
-  */
-</script>
 <!--<![endif]-->
