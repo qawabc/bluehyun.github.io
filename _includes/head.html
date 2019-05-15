@@ -145,9 +145,8 @@
 </noscript>
 <script>
   function goReservation() {
-  var ga = ga.getAll()[0].get('linkerParam');
-  console.log(ga);
-  window.open("https://qawabc.github.io"+"?"+ga);
+  console.log(ga.getAll()[0].get('linkerParam'));
+  window.open("https://qawabc.tistory.com"+"?"+ga.getAll()[0].get('linkerParam'));
 }
 $(function(){
   $('#doReservation').click(function() {
