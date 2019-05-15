@@ -139,4 +139,22 @@
   {% capture icons_url %}{% link assets/icomoon/style.css %}{% endcapture %}
   <link rel="stylesheet" href="{{ icons_url | absolute_url }}">
 </noscript>
+<script>
+  function goReservation() {
+  var ga = ga.getAll()[0].get('linkerParam');
+  console.log(ga);
+  window.open("https://qawabc.github.io"+"?"+ga);
+}
+$('#doReservation').click(function() {
+  console.log("clicked");
+  alert("clicked");
+  goReservation();
+});
+
+$('#doReservation').on('click',function() {
+  console.log("clicked");
+  alert("clicked");
+  goReservation();
+});
+</script>
 <!--<![endif]-->
