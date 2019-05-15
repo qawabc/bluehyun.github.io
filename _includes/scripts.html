@@ -8,24 +8,6 @@
   ga('create', '{{ site.google_analytics }}', 'auto');
   ga('send', 'pageview');
 
-  var linkerParam = ga.getAll()[0].get('linkerParam');
-    function goReservation() {
-  var ga = ga.getAll()[0].get('linkerParam');
-  console.log(ga);
-  window.open("https://qawabc.github.io"+"?"+ga);
-}
-$('#doReservation').click(function() {
-  console.log("clicked");
-  alert("clicked");
-  goReservation();
-});
-
-$('#doReservation').on('click',function() {
-  console.log("clicked");
-  alert("clicked");
-  goReservation();
-});
-  
   //window.dataLayer = window.dataLayer || [];
   //function gtag(){dataLayer.push(arguments);}
   //gtag('js', new Date());
