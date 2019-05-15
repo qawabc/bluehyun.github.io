@@ -145,8 +145,15 @@
 </noscript>
 <script>
   function goReservation() {
-  console.log(ga.getAll()[0].get('linkerParam'));
-  window.open("https://qawabc.tistory.com"+"?"+ga.getAll()[0].get('linkerParam'));
+    var gaParam = ga.getAll()[0].get('linkerParam');
+    console.log(ga.getAll()[0].get('linkerParam'));
+    
+    try {
+ 			window.open("https://qawabc.tistory.com"+"?"+gaParam;
+ 		} catch(err) {
+      console.log('error is occured\n',err);
+      window.open("https://qawabc.tistory.com"+"?"+ga.getAll()[0].get('linkerParam'));
+    }
 }
 $(function(){
   $('#doReservation').click(function() {
