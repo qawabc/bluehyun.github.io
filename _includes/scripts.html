@@ -8,7 +8,7 @@
   ga('create', '{{ site.google_analytics }}', 'auto');
   ga('send', 'pageview');
 
-  
+  var linkerParam = ga.getAll()[0].get('linkerParam');
     function goReservation() {
   var ga = ga.getAll()[0].get('linkerParam');
   console.log(ga);
